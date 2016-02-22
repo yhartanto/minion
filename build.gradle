@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+dependencies {
+    compile 'io.reactivex:rxjava:1.1.1'
+    compile 'com.jakewharton.timber:timber-parent:3.1.0'
+}
